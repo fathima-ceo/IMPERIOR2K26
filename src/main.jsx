@@ -119,7 +119,7 @@ function IntroOverlay({ onClose }) {
     <div className="intro-loader"><span /> LOADING IMPERIOR 2K26</div>
     <div className="intro-browser">
       <div className="intro-browser-bar"><span className="browser-dots"><i /><i /><i /></span><span className="browser-title">IMPERIOR 2K26 • UCE PATTUKKOTTAI</span><button onClick={onClose} aria-label="Close intro">×</button></div>
-      <div className="intro-page"><img src="/sy.jpeg" alt="IMPERIOR 2K26 brochure" /></div>
+      <div className="intro-page"><img src={`${import.meta.env.BASE_URL}sy.jpeg`} alt="IMPERIOR 2K26 brochure" /></div>
     </div>
   </div>;
 }
